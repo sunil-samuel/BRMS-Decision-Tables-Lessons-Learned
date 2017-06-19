@@ -1,2 +1,0 @@
-# BRMS
-BRMS [Drools]
