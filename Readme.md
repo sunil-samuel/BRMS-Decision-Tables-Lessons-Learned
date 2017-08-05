@@ -52,6 +52,12 @@ There are several ways to compare two strings.  The best is to use the `.equals`
 
 <img src="Documentation/gfx/string-comparison.png">
 
+## No Parameters
+
+Certain rules require testing a constant that does not need to come from a param value.  In order to do this, we must create a param that is used within the comment section of the rule.
+
+<img src="Documentation/gfx/no-param.png">
+
 ## Spreadsheet to DRL
 
 For the purpose of debugging, it may be easier to debug the DRL file that the decision table spreadsheet created.  You can convert the Excel spreadsheet to DRL.  To do this, update your `kmodule.xml` file to contain the following configuration parameter:
